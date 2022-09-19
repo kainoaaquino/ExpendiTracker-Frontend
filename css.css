@@ -1,0 +1,25 @@
+p {
+    
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(179,220,237,1);
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 0px solid #000000;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+    
+
+  }
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.cards{
+  background-color: blueviolet;
+}

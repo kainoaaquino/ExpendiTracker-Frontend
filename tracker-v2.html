@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kainacho</title>
+</head>
+<body>
+    <h1 class = "heading">ExpendiTracker</h1>
+    <button id="loadButton">Load All Entries</button>
+    <p>Entries: </p>
+    <!--This is where the entries (content) are currently displayed -->
+    <span id="content"></span> 
+    
+    <br>
+    <br>
+    <!--This section is for Submitting Entries -->
+    <div id = "cards">
+        <div class = "card">
+            <button id="submitButton"> Submit Entry</button>
+            <input id="entryInput" type = "text" placeholder="Amount">
+            <input id="dateInput" type = "text" placeholder= "Date (YYYY-MM-DD)">
+            <input id="categoryInput" type = "text" placeholder = "Category ID: ">
+            <input id = "userIdInput" type = "text" placeholder = "User ID: ">
+            
+        </div>  
+    </div>
+    <br>
+    
+    
+    <br>
+    <br>
+    <!-- This section is for Loading by date -->
+   <!-- <button id = "dateLoadButton">Load by Date</button>
+    <input id = "getDateInput" type = "text"> -->
+
+    <br>
+    <br>
+    <p3>Categories</p3>
+    <br>
+    <br>
+    <button id = "necessaryButton">Load Necessary Entries</button>
+    <input id = "necessaryUsernameInput" type = "text" placeholder = "Username: ">
+    <br>
+    <br>
+
+    <button id = "notnecessaryButton">Load Not Necessary Entries</button>
+    <input id = "notnecessaryUsernameInput" type = "text" placeholder = "Username: ">
+
+    <br>
+    <br>
+    <p4>Users</p4>
+    <br>
+    <br>
+    <button id = "allUsersButton"> Load All Users</button>
+    <br>
+    <br>
+    <button id = "addUserButton"> Add User</button>
+    <input id = "usernameInput" type = "text" placeholder = "Create Username:">
+    <input id = "passwordInput" type = "text" placeholder = "Create Password: ">
+    <br>
+    <br>
+    
+    
+    <button id = "usernameButton">Load Entries by Username</button>
+    <input id = "getUsernameInput" type = "text" placeholder = "Username: ">
+    <br>
+    <br>
+    <p2>Users Displayed Here: </p2>
+    <span id = "displayUsers"></span>
+
+    <script src = "tracker-v2.js"></script>
+</body>
+</html>
